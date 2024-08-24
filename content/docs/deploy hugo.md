@@ -59,15 +59,15 @@ git push -u origin main
 
 步骤2: 手动添加`gh-pages`分支
 
-![gh-pages-branch](/image/gh-pages-branch.jpg)
+![gh-pages-branch](/static/image/gh-pages-branch.jpg)
 
 步骤3: 接着在Settings下的Actions/General里，滑到最下面，打开Read and Write Permissions
 
-![actions_permission](/image/actions_permission.jpg)
+![actions_permission](/static/image/actions_permission.jpg)
 
 步骤4: 在Pages下的Build and deployment，将Source更换为GitHub Actions
 
-![deploy_branch](/images/deploy_branch.png)
+![deploy_branch](/static/images/deploy_branch.png)
 
 步骤5: 添加workflow
 
@@ -170,4 +170,4 @@ git commit -m "Add workflow"
 git push
 ```
 
-![success](/images/success.png)
+![success](/static/images/success.png)
